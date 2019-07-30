@@ -119,19 +119,19 @@
                     <tbody>
                       <tr>
                         <td>1</td>
-                        <td>Navient Solutions, LLC</td>
+                        <td>First Independent Bank</td>
                         <td>$36,738</td>
                         <td>Loan</td>
                       </tr>
                       <tr>
                         <td>2</td>
-                        <td>Great Lakes</td>
+                        <td>First Liberty Credit Union</td>
                         <td>$23,789</td>
                         <td>Credit</td>
                       </tr>
                       <tr>
                         <td>3</td>
-                        <td>Wells Fargo</td>
+                        <td>First Newton National Bank</td>
                         <td>$56,142</td>
                         <td>Loan</td>
                       </tr>
