@@ -31,22 +31,22 @@ const router = new Router({
 router.beforeEach((to, from, next) => {
   if(to.name == 'callback') { // check if "to"-route is "callback" and allow access
     if (router.app.$auth.isAuthenticated()) {
-        next();
+        next()
       }else{
         router.app.$auth.login();
-        next();
+        next()
       }
   } else if(to.name == 'home') { // check if "to"-route is "callback" and allow access
-    next();
+    next()
   } else if(to.name == 'landing') { // check if "to"-route is "callback" and allow access
 
-        next();
+        next()
 
   } else if (router.app.$auth.isAuthenticated()) { // if authenticated allow access
     next()
   }else { // trigger auth0's login.
     // next()
-     
+
      next()
   }
 })

@@ -61,7 +61,7 @@ let auth = new Vue({
         localStorage.removeItem('expires_at')
         localStorage.removeItem('user')
         webAuth.logout({
-          returnTo: 'https://circleblack.herokuapp.com/landing', // Allowed logout URL listed in dashboard
+          returnTo: 'https://circleblack.herokuapp.com/', // Allowed logout URL listed in dashboard
           clientID: 'sl00ZX9DK7F95oyg0dt0ZDTXe4UYNAVa', // Your client ID
         })
       })
