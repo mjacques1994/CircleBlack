@@ -15,6 +15,9 @@
       <div class="container">
         <h1 class="display-4">Hello, {{$auth.user.name}}!</h1>
         <p class="lead">Here is your account dashboard: </p>
+          <button type="button" class="btn btn-outline-secondary btn-sm" >Add account</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" >Change Password</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" >Delete account</button>
         <hr class="my-4">
 
 
