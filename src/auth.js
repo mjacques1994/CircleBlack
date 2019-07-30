@@ -3,12 +3,13 @@ import Vue from 'vue'
 
 // exchange the object with your own from the setup step above.
 let webAuth = new auth0.WebAuth({
-  domain: 'dev-7tiw82n3.auth0.com',
-  clientID: 'v2VPUH5LyJeMoPvEG8Z7pbIDjMJRNBvz',
+  domain: 'dev-ih0s9481.auth0.com',
+  clientID: 'sl00ZX9DK7F95oyg0dt0ZDTXe4UYNAVa',
   // make sure port is 8080
-  redirectUri: 'https://circleblack.herokuapp.com/callback', 
+  //redirectUri: 'https://circleblack.herokuapp.com/callback',
+  redirectUri: 'https://circleblack.herokuapp.com/callback',
   // we will use the api/v2/ to access the user information as payload
-  audience: 'https://dev-7tiw82n3.auth0.com/api/v2/',
+  audience: 'https://dev-ih0s9481.auth0.com/api/v2/',
   responseType: 'token id_token',
   scope: 'openid profile'
 })
@@ -60,8 +61,8 @@ let auth = new Vue({
         localStorage.removeItem('expires_at')
         localStorage.removeItem('user')
         webAuth.logout({
-          returnTo: 'http://localhost:8080/landing', // Allowed logout URL listed in dashboard
-          clientID: 'v2VPUH5LyJeMoPvEG8Z7pbIDjMJRNBvz', // Your client ID
+          returnTo: 'https://circleblack.herokuapp.com/landing', // Allowed logout URL listed in dashboard
+          clientID: 'sl00ZX9DK7F95oyg0dt0ZDTXe4UYNAVa', // Your client ID
         })
       })
     },

@@ -10,7 +10,7 @@ const router = new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       component: Home
     },
@@ -20,7 +20,7 @@ const router = new Router({
       component: Callback
     },
     {
-      path: '/landing',
+      path: '/',
       name: 'landing',
       component: Landing
     },
@@ -30,7 +30,20 @@ const router = new Router({
 // very basic "setup" of a global guard
 router.beforeEach((to, from, next) => {
   if(to.name == 'callback') { // check if "to"-route is "callback" and allow access
-    next()
+    if (router.app.$auth.isAuthenticated()) {
+        next();
+      }else{
+        router.app.$auth.login();
+        next();
+      }
+  } else if(to.name == 'home') { // check if "to"-route is "callback" and allow access
+    if (router.app.$auth.isAuthenticated()) {
+        next();
+      }
+  } else if(to.name == 'landing') { // check if "to"-route is "callback" and allow access
+
+        next();
+
   } else if (router.app.$auth.isAuthenticated()) { // if authenticated allow access
     next()
   }else { // trigger auth0's login.

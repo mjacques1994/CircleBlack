@@ -34,25 +34,20 @@
                     <i class="material-icons">Overall Balance</i>
                   </div>
                   <p class="card-category"></p>
-                  <h3 class="card-title">Total: $39,000
+                  <h3 class="card-title">Total: $43,997.68
 
                   </h3>
                 </div>
-                <div class="card-footer">
-                  <div class="stats">
 
-                    <a href="#pablo">Pay now...</a>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="card card-stats">
                 <div class="card-header card-header-success card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">Store</i>
+                    <i class="material-icons">Checking/</i>
                   </div>
-                  <p class="card-category">Revenue</p>
+                  <p class="card-category">Savings</p>
                   <h3 class="card-title">$34,245</h3>
                 </div>
                 <div class="card-footer">
@@ -68,7 +63,7 @@
                   <div class="card-icon">
                     <i class="material-icons"></i>
                   </div>
-                  <p class="card-category">Perfsonal account</p>
+                  <p class="card-category">Personal account</p>
                   <h3 class="card-title">$9,543</h3>
                 </div>
                 <div class="card-footer">
@@ -84,7 +79,7 @@
                   <div class="card-icon">
                     <i class="fa fa-twitter"></i>
                   </div>
-                  <p class="card-category">Apple Inc. (AAPL)</p>
+                  <p class="card-category">Investments</p>
                   <h3 class="card-title">209.68</h3>
                     <small> +1.94 (0.93%)</small>
                 </div>
@@ -107,42 +102,37 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header card-header-warning">
-                  <h4 class="card-title">Employees Stats</h4>
-                  <p class="card-category">New employees on 15th July, 2019</p>
+                  <h4 class="card-title"> Student Loans</h4>
+                  <p class="card-category">Updated as of 15th July, 2019</p>
                 </div>
                 <div class="card-body table-responsive">
                   <table class="table table-hover">
                     <thead class="text-warning">
                       <tr><th>ID</th>
-                      <th>Name</th>
-                      <th>Salary</th>
-                      <th>Country</th>
+                      <th>Company</th>
+                      <th>Amount</th>
+                      <th>School</th>
                     </tr></thead>
                     <tbody>
                       <tr>
                         <td>1</td>
-                        <td>Dakota Rice</td>
+                        <td>Navient Solutions, LLC</td>
                         <td>$36,738</td>
-                        <td>Japan</td>
+                        <td>New Jersey Institute of Technology</td>
                       </tr>
                       <tr>
                         <td>2</td>
-                        <td>Minerva Hooper</td>
+                        <td>Great Lakes</td>
                         <td>$23,789</td>
-                        <td>Curaçao</td>
+                        <td>New Jersey Institute of Technology</td>
                       </tr>
                       <tr>
                         <td>3</td>
-                        <td>Sage Rodriguez</td>
+                        <td>Wells Fargo</td>
                         <td>$56,142</td>
-                        <td>Netherlands</td>
+                        <td>Stevens Institute of Technology</td>
                       </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Philip Chaney</td>
-                        <td>$38,735</td>
-                        <td>Korea, South</td>
-                      </tr>
+
                     </tbody>
                   </table>
                 </div>
