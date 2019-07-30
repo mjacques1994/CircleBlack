@@ -6,7 +6,7 @@ let webAuth = new auth0.WebAuth({
   domain: 'dev-ih0s9481.auth0.com',
   clientID: 'sl00ZX9DK7F95oyg0dt0ZDTXe4UYNAVa',
   // make sure port is 8080
-  //redirectUri: 'https://circleblack.herokuapp.com/callback',
+  //redirectUri: 'http://localhost:8080/callback',
   redirectUri: 'https://circleblack.herokuapp.com/callback',
   // we will use the api/v2/ to access the user information as payload
   audience: 'https://dev-ih0s9481.auth0.com/api/v2/',
@@ -62,6 +62,7 @@ let auth = new Vue({
         localStorage.removeItem('user')
         webAuth.logout({
           returnTo: 'https://circleblack.herokuapp.com/', // Allowed logout URL listed in dashboard
+          //return: 'http://localhost:8080',
           clientID: 'sl00ZX9DK7F95oyg0dt0ZDTXe4UYNAVa', // Your client ID
         })
       })

@@ -12,7 +12,7 @@
 
     <p> World's leading financial dashboard</p>
 
-   <router-link id="cb-button" :to="'Callback'">Enter</router-link>
+   <router-link id="cb-button" :to="'Dummy'">Enter</router-link>
 
 
 </div>
