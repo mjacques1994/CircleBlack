@@ -37,9 +37,7 @@ router.beforeEach((to, from, next) => {
         next();
       }
   } else if(to.name == 'home') { // check if "to"-route is "callback" and allow access
-    if (router.app.$auth.isAuthenticated()) {
-        next();
-      }
+    next();
   } else if(to.name == 'landing') { // check if "to"-route is "callback" and allow access
 
         next();
