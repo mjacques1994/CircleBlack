@@ -102,7 +102,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header card-header-warning">
-                  <h4 class="card-title"> Student Loans</h4>
+                  <h4 class="card-title">Loans & Credit</h4>
                   <p class="card-category">Updated as of 15th July, 2019</p>
                 </div>
                 <div class="card-body table-responsive">
@@ -111,26 +111,26 @@
                       <tr><th>ID</th>
                       <th>Company</th>
                       <th>Amount</th>
-                      <th>School</th>
+                      <th>Type</th>
                     </tr></thead>
                     <tbody>
                       <tr>
                         <td>1</td>
                         <td>Navient Solutions, LLC</td>
                         <td>$36,738</td>
-                        <td>New Jersey Institute of Technology</td>
+                        <td>Loan</td>
                       </tr>
                       <tr>
                         <td>2</td>
                         <td>Great Lakes</td>
                         <td>$23,789</td>
-                        <td>New Jersey Institute of Technology</td>
+                        <td>Credit</td>
                       </tr>
                       <tr>
                         <td>3</td>
                         <td>Wells Fargo</td>
                         <td>$56,142</td>
-                        <td>Stevens Institute of Technology</td>
+                        <td>Loan</td>
                       </tr>
 
                     </tbody>
