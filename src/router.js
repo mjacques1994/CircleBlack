@@ -46,7 +46,7 @@ router.beforeEach((to, from, next) => {
     next()
   }else { // trigger auth0's login.
     // next()
-     router.app.$auth.login();
+     
      next()
   }
 })
