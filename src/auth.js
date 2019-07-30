@@ -6,7 +6,7 @@ let webAuth = new auth0.WebAuth({
   domain: 'dev-7tiw82n3.auth0.com',
   clientID: 'v2VPUH5LyJeMoPvEG8Z7pbIDjMJRNBvz',
   // make sure port is 8080
-  redirectUri: 'http://localhost:8080/callback',
+  redirectUri: 'https://web.njit.edu/~kgf6/CircleBlackMike/dist/', 
   // we will use the api/v2/ to access the user information as payload
   audience: 'https://dev-7tiw82n3.auth0.com/api/v2/',
   responseType: 'token id_token',
@@ -60,7 +60,7 @@ let auth = new Vue({
         localStorage.removeItem('expires_at')
         localStorage.removeItem('user')
         webAuth.logout({
-          returnTo: 'https://www.circleblack.com/', // Allowed logout URL listed in dashboard
+          returnTo: 'http://localhost:8080/landing', // Allowed logout URL listed in dashboard
           clientID: 'v2VPUH5LyJeMoPvEG8Z7pbIDjMJRNBvz', // Your client ID
         })
       })

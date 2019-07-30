@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/Home.vue'
 import Callback from '@/views/Callback.vue'
+import Landing from '@/views/Landing.vue'
 
 Vue.use(Router)
 
@@ -17,7 +18,12 @@ const router = new Router({
       path: '/callback',
       name: 'callback',
       component: Callback
-    }
+    },
+    {
+      path: '/landing',
+      name: 'landing',
+      component: Landing
+    },
   ]
 })
 
@@ -27,9 +33,14 @@ router.beforeEach((to, from, next) => {
     next()
   } else if (router.app.$auth.isAuthenticated()) { // if authenticated allow access
     next()
-  } else { // trigger auth0's login.
-    router.app.$auth.login()
+  }else { // trigger auth0's login.
+    // next()
+     router.app.$auth.login();
+     next()
   }
 })
+
+
+
 
 export default router

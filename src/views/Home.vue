@@ -31,7 +31,7 @@
               <div class="card card-stats">
                 <div class="card-header card-header-warning card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">Student Loans</i>
+                    <i class="material-icons">Overall Balance</i>
                   </div>
                   <p class="card-category"></p>
                   <h3 class="card-title">Total: $39,000
