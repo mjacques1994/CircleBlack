@@ -131,7 +131,7 @@
                       </tr>
                       <tr>
                         <td>3</td>
-                        <td>First Newton National Bank</td>
+                        <td>First Newton National </td>
                         <td>$56,142</td>
                         <td>Loan</td>
                       </tr>
